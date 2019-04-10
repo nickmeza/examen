@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond
+}
+#venta{
+    background-color: azure;
+    float: left;
+    width: 550px;
+    height: 300px;
+    padding: 50px 20px 100px 20px
+
+}
+#detalle_venta{
+    float: right;
+    padding: 50px 500px 100px 100px
+    
+}
+label{
+    font-size: 30px;
+}
+select{
+    font-size:  20px;
+}
+table{
+    
+    border: 1px solid black;
+    width: 50px;
+    height: 70px;
+    background-color: white;
+}
+footer{
+    padding: 220px 10px 10px 400px
+}
+#guardar{
+    width: 70px;
+    height: 50px;
+}

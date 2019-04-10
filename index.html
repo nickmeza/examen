@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>punto venta</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <p>hola</p>
+    <div id="venta">
+        <header>
+            <label for="numero">N°</label>
+            <input type="text"name="numero"id="numero">
+            <label for="ubicacion">ubicacion</label>
+            <input type="text" name="ubicacion"id="ubicacion"><br>
+            <label for="cliente">cliente</label>
+            <input type="text" name="cliente"id="cliente">
+            <label for="DNI">DNI</label>
+            <input type="text" name="DNI" id="dni"><br>
+        </header>
+
+        <label for="tipo"></label>
+        <select name="tipo" id="tipo">
+            <option value="2camas">2camas </option>
+            <option value="matrimonial">matrimonial</option>
+            <option value="suit">suit</option>
+        </select>
+        <label for="Personas">N° Personas</label>
+            <input type="text" name="Personas"id="personas"><br>
+            <footer>
+                <input type="submit" id="guardar"
+                onclick="guardar()" value="guardar">
+            </footer>
+    </div>
+
+
+    <div id="detalle_venta">
+        <div id="tabla_1">
+        <table id="tabla1">
+            <tr>
+                    <td>N°</td>
+                <td>Nombre</td>
+                <td>DNI</td>
+                <td>FECHA</td>
+                <td>Ubicacion</td>
+            </tr>
+        </div>
+        <div id="tabla_2">
+        </table><br><br><br><br>
+        <table id="tabla2">
+                <tr>
+                    <td>N°</td>
+                    <td>Habitacion</td>
+                    <td>Costo</td>
+                    <td>Cantidad</td>
+                    <td>Actividad</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="javascrip.js"></script>
 </body>
 </html>
